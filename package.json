@@ -1,0 +1,50 @@
+{
+  "name": "ajs_1.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "call-bind": "^1.0.0",
+    "core-js": "^3.7.0",
+    "create-babelrc": "^1.0.0",
+    "file-uri-to-path": "^1.0.0",
+    "for-in": "^1.0.2",
+    "fs.realpath": "^1.0.0",
+    "function-bind": "^1.1.1",
+    "get-intrinsic": "^1.0.1",
+    "get-value": "^2.0.6",
+    "globals": "^11.12.0",
+    "graceful-fs": "^4.2.4",
+    "has": "^1.0.3",
+    "has-flag": "^3.0.0",
+    "has-symbols": "^1.0.1",
+    "inherits": "^2.0.4",
+    "is-accessor-descriptor": "^0.1.6",
+    "is-binary-path": "^1.0.1",
+    "is-buffer": "^1.1.6",
+    "is-core-module": "^2.1.0",
+    "is-data-descriptor": "^0.1.4",
+    "is-descriptor": "^0.1.6",
+    "is-extendable": "^0.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gudbrant/AJS_1.2.git"
+  },
+  "author": "anton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gudbrant/AJS_1.2/issues"
+  },
+  "homepage": "https://github.com/gudbrant/AJS_1.2#readme"
+}
